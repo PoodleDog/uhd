@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UHD", "UHD\UHD.vcxproj", "{4E2DF74E-AD8C-450B-8663-A567998A778E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{578D7047-6B44-4556-9408-F2070BA33ACA} = {578D7047-6B44-4556-9408-F2070BA33ACA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IPLib", "IPLib\IPLib.vcxproj", "{578D7047-6B44-4556-9408-F2070BA33ACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2DF74E-AD8C-450B-8663-A567998A778E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E2DF74E-AD8C-450B-8663-A567998A778E}.Debug|Win32.Build.0 = Debug|Win32
+		{4E2DF74E-AD8C-450B-8663-A567998A778E}.Release|Win32.ActiveCfg = Release|Win32
+		{4E2DF74E-AD8C-450B-8663-A567998A778E}.Release|Win32.Build.0 = Release|Win32
+		{578D7047-6B44-4556-9408-F2070BA33ACA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{578D7047-6B44-4556-9408-F2070BA33ACA}.Debug|Win32.Build.0 = Debug|Win32
+		{578D7047-6B44-4556-9408-F2070BA33ACA}.Release|Win32.ActiveCfg = Release|Win32
+		{578D7047-6B44-4556-9408-F2070BA33ACA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
